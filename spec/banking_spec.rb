@@ -49,7 +49,7 @@ describe "BankAccount" do
       expect(@closed.valid?).to eq(false)
     end
   end
-
+  
   describe '#close_account' do
     it "can close its account" do
       avi.close_account
@@ -57,3 +57,4 @@ describe "BankAccount" do
     end
   end
 end
+
